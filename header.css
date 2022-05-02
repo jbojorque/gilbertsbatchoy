@@ -1,0 +1,38 @@
+body {
+    font-family: Roboto, Arial;
+}
+.header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #b7e4c7;
+    z-index: 100;
+}
+.left-section {
+    align-items: center;
+    display: flex;
+}
+.logo {
+    margin-top: 10px;
+    height: 100px;
+}
+.middle-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 500px;
+    align-items: center;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin-right: 20px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
